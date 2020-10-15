@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":276:{a:2:{s:7:"defects";a:1:{s:30:"core\RequestTest::testNamesMVC";i:3;}s:5:"times";a:4:{s:33:"core\CoreControllerTest::testTrue";d:0.011;s:36:"core\RequestTest::testNameController";d:0.01;s:30:"core\RequestTest::testNamesMVC";d:0.001;s:29:"core\RouteTest::testInstances";d:0.01;}}}

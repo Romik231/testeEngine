@@ -1,0 +1,23 @@
+{
+    "name": "roman/test",
+    "description": "test project",
+    "authors": [
+        {
+            "name": "Roman Stepurov",
+            "email": "r.stepurov@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "public/controllers",
+            "models\\": "public/models",
+            "core\\": "public/core",
+            "views\\": "public/views",
+            "interfaces\\": "public/interfaces"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
