@@ -5,6 +5,7 @@ namespace core;
 
 
 use interfaces\Index;
+use models\BaseModel;
 
 /**
  * class core controller
@@ -22,17 +23,15 @@ class CoreController implements Index
 
 	/**
 	 * CoreController constructor.
-	 * @param CoreModel|null $model
 	 */
-	public function __construct($model = null)
+	public function __construct()
 	{
-		$this->model = $model instanceof CoreModel ?? new $model;
+		$this->model = new BaseModel();
 		$this->view = new CoreView();
 	}
 
 	public function index()
 	{
-		$view = new CoreView();
-		$this->view->render($this->model, 'index');
+		$this->view->render($this->model->model(), 'index');
 	}
 }

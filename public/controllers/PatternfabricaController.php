@@ -10,6 +10,6 @@ class PatternfabricaController extends CoreController
 {
 	public function index()
 	{
-		$this->view->render([], 'patternfabrica');
+		$this->view->render(['ca' => 'dsad'], 'patternfabrica');
 	}
 }

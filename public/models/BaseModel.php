@@ -15,6 +15,6 @@ class BaseModel extends CoreModel
 {
 	public function model()
 	{
-		return 'das';
+		return ['das', 'fdsaf'] ;
 	}
 }

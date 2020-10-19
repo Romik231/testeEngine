@@ -31,8 +31,6 @@ class Route
 	 *
 	 * @author Roman Stepurov
 	 * @version 1.0, 07.08.2020
-	 *
-	 * @throws RuntimeException
 	 */
 	public function init()
     {

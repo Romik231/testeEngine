@@ -11,5 +11,8 @@ namespace core;
  */
 class CoreModel
 {
-
+	public function getData()
+	{
+		return ['ca', 'caasd'];
+	}
 }
